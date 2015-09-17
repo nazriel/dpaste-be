@@ -1,0 +1,16 @@
+{
+	"name": "dpaste-be-daemon",
+	"description": "DPaste backend main module",
+	"copyright": "Copyright © 2015, Digital Mars",
+	"authors": ["Damian Ziemba <nazriel@dzfl.pl>"],
+    "license": "BSL-1.0 or MPL-2.0",
+    "targetType": "executable",
+    "dependencies": {
+        "dpaste-be:dpaste-be-worker": "*",
+        "dpaste-be:dpaste-be-container": "*"
+    },
+    "subPackages": [
+        "./dpaste-be-worker/",
+        "./dpaste-be-container/"
+    ]
+}

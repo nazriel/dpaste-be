@@ -1,0 +1,6 @@
+[submodule "dpaste-be-worker"]
+	path = dpaste-be-worker
+	url = git@github.com:nazriel/dpaste-be-worker.git
+[submodule "dpaste-be-container"]
+	path = dpaste-be-container
+	url = git@github.com:nazriel/dpaste-be-container.git
