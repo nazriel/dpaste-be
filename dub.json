@@ -1,16 +1,16 @@
 {
-	"name": "dpaste-be-daemon",
+	"name": "dpaste-be",
 	"description": "DPaste backend main module",
 	"copyright": "Copyright © 2015, Digital Mars",
 	"authors": ["Damian Ziemba <nazriel@dzfl.pl>"],
     "license": "BSL-1.0 or MPL-2.0",
     "targetType": "executable",
     "dependencies": {
-        "dpaste-be:dpaste-be-worker": "*",
-        "dpaste-be:dpaste-be-container": "*"
+		"vibe-d": "~>0.7.25-rc.1"
     },
     "subPackages": [
         "./dpaste-be-worker/",
-        "./dpaste-be-container/"
-    ]
+		"./dpaste-be-container/"
+    ],
+    "versions": ["VibeDefaultMain"]
 }
