@@ -1,9 +1,0 @@
-﻿{
-	"misc": {
-		"workerBinary": "/home/nazriel/d/dpaste-be/dpaste-be-worker/dpaste-be-worker"
-	},
-	"users": [
-		{"id": 1001, "name": "dpaste", "homePath": "/home/dpaste", "permission": "guest", "groupId": 65534}
-	],
-	"defaultUserGroupId": 65534
-}
